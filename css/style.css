@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Permanent Marker;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1, h3, p {
+    padding: 20px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    color: #000;
+}
+h1 {
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 60px;
+}
+h3 {
+    padding: 0 0 10px;
+    line-height: 30px;
+    font-size: 30px;
+}
+section {
+    margin-top: 150px;
+    color: #336e7b;
+}
+p {
+    font-size: 20px;
+    font-family: Gloria Hallelujah;
+}
