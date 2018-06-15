@@ -1,1 +1,1 @@
-# learning-git-2
+https://conspir0.github.io/learning-git-2/
