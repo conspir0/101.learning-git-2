@@ -1,0 +1,20 @@
+autoprefixer-cli:
+
+autoprefixer-cli -o style.prefixed.css style.css
+
+
+
+
+
+nu-html-checker:
+
+var checker = require('nu-html-checker');
+var batch = checker.validate(['test.html'. 'hhtp://google.com' ]);
+
+batch.on('progress', function(e) {
+	console.log(checker.format('stylish', e.value), '\n');
+});
+
+batch.on('end', function(err) {
+	if(err) console.log('err.stack);
+})
